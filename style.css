@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&family=Unbounded:wght@200&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-repeat: no-repeat;
+}
+
+
+
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+}
+
+.logo-container{
+    padding: 25px 35px;
+    color: #161616;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Unbounded', cursive;
+    font-weight:900;
+    font-size: 18px;
+    margin-left: 40px;
+
+}
+
+nav{
+    color: black;
+    float: right;
+    text-align: right;
+    justify-content: right;
+    position: absolute;
+    right: 20px;
+    top: -9px;
+    
+}
+
+nav .mainMenu{
+    display: flex;
+    line-height: 60px;
+    list-style: none;
+    font-size: 14px;
+    
+   
+
+}
+
+nav .mainMenu li a{
+    display: inline-block;
+    line-height: 60px;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Unbounded', cursive;
+    color: rgb(0, 0, 0);
+    font-weight:normal;
+
+}
+
+nav .mainMenu li a:hover{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+nav .openMenu{
+    font-size: 2.5rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , i {
+    font-size: 1.5rem;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+
+}
+
+nav .openMenu{
+    position: absolute;
+    right: -30px;
+    bottom: -17px;
+}
+
+.main {
+    background-image: url('images/dog2.jpg');
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 40px;
+    margin-left:1px;
+    
+}
+
+
+
+.subtitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 30px;
+    font-family: 'Rowdies', cursive;
+    color: white;
+
+}
+
+.content{
+    text-align: center;
+    padding: 30px 100px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    background-color: rgb(255, 255, 255);
+    
+    border: 3px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    
+    
+}
+
+.img-container a{
+    padding: 20px 60px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+    text-decoration: none;
+
+    
+    
+}
+
+.img-container a:hover{
+    background-color:rgb(255, 251, 0);
+
+}
+
+
+
+/* About Section */
+
+.about {
+    text-align: center;
+    padding: 20px 20px;
+   
+}
+
+.aboutp{
+    padding: 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.card{
+    display: inline-block;
+    margin: 20px 80px;
+    
+}
+
+.card-subject{
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.pcard{
+    display: inline-block;
+    margin: 20px 80px;
+}
+
+
+.price-options{
+    font-size: 32px;
+    margin-top: 80px;
+    font-weight: bold;
+    
+}
+
+.p-option{
+    font-size: 34px;
+    margin-top: 10px;
+    
+    font-family: 'Unbounded', cursive;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.ask{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.thanks{
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.numbers{
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.number{
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+
